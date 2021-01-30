@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Abierta 1</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Prueba Abierta 1. Representación de pirámide con JavaScript!!</h1>
+    <div style="display: flex; justify-content: center;">
+        <div>
+            <script>
+                document.open();
+                for (let f = 1; f < 10; f++) {
+                    for (let c = 1; c <= f; c++) {
+                        document.write(`<span>${f}</span>`);
+                    }
+                    document.write('<br>');
+                }
+                document.close();
+            </script>
+        </div>
+    </div>
+</body>
+</html>
