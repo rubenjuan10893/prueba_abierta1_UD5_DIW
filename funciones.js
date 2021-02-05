@@ -2,6 +2,8 @@
 
 let numeroSeleccionado;
 
+console.log("Hola mundo!!!");
+
 let verPaginaTriangulo = () => {
     window.open('./triangulo.html');
 }
